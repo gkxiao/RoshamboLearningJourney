@@ -4,7 +4,7 @@
 
 Figure 1. Structure of Compound 31
 
-**Compound 31**(Figure 1), a known inhibitor of the ROS1 kinase (Petrović, D. et al. 2022), was used as the query molecule in a large-scale three-dimensional (3D) virtual screening campaign against the **CHEMBL35** database. The search was conducted using **ROSHAMBO2**  (Atwi, R. et al. 2025), a GPU-accelerated 3D molecular similarity engine that employs shape, color, and combined descriptors to evaluate structural resemblance. The dataset of top hits was generated from a screening run utilizing the following parameters:
+**Compound 31** (Figure 1), a known inhibitor of the ROS1 kinase (Petrović, D. et al. 2022), was used as the query molecule in a large-scale three-dimensional (3D) virtual screening campaign against the **CHEMBL35** database. The search was conducted using **ROSHAMBO2**  (Atwi, R. et al. 2025), a GPU-accelerated 3D molecular similarity engine that employs shape, color, and combined descriptors to evaluate structural resemblance. The dataset of top hits was generated from a screening run utilizing the following parameters:
 
 - `--color true`
 - `--start_mode 1`
