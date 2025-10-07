@@ -49,10 +49,15 @@ In this virtual screening, ROSHAMBO2 retained a total of 10,000 results with the
 | 75% | 1.225248 | 0.612624 | 1.565000 | 1.599000 |
 | max | 1.567736 | 0.783868 | 1.978000 | 2.106000 |
 
+Among these results, I am interested in the virtual screening hit compound CHEMBL1997924. The 3D structures of the query and the hit are shown in Figure 2.
+
 ![Compound 31 and CHEMBL1997924](https://github.com/gkxiao/RoshamboLearningJourney/blob/main/data/compound-31-and-CHEMBL1997924.png)
 **Figure 2.** 3D structures of Compound 31 (left) versus CHEMBL1997924 (right)
 
-### 1. score
+
+
+### Table 2. Six main score values of CHEMBL1997924
+
 | Metric | Value |
 |-----------------------|-----------|
 | tanimoto_combo_legacy | 1.430203 |
