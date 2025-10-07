@@ -1,4 +1,5 @@
 ![ROS1 inhibitor compound 31](data/AZ-ROS1-inhibitor-31.png)
+**Figure 1.** Compound 31
 
 **31.sdf** is a ROS1 inhibitor hit ( compound 13 ) discovered by Petrović, D. et al. (2022) through Fragment-Based Drug Discovery (FBDD). In this exercise, it serves as the **query** for ROSHAMBO2. Compound 13 underwent structure preparation using Flare, followed by conformational searching and alignment via the "Conf Hunt & Align" module. This process generated the bioactive conformation by aligning the compound to the ligands in three ROS1 co-crystal structures (PDB: 3ZBF, 4UXL, 7Z5X).
 
@@ -32,7 +33,7 @@ Where:
 
 ## Result
 ![Compound 31 and CHEMBL1997924](https://github.com/gkxiao/RoshamboLearningJourney/blob/main/data/compound-31-and-CHEMBL1997924.png)
-
+**Figure 2.** 3D structures of Compound 31 (left) versus CHEMBL1997924 (right)
 ## Reference
 1. Petrović, D. et al. (2022) “Virtual Screening in the Cloud Identifies Potent and Selective ROS1 Kinase Inhibitors,” Journal of Chemical Information and Modeling, 62(16), pp. 3832–3843. Available at: https://doi.org/10.1021/acs.jcim.2c00644.
 
