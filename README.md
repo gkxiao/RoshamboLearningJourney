@@ -55,8 +55,7 @@ Among these results, I am interested in the virtual screening hit compound CHEMB
 **Figure 2.** 3D structures of Compound 31 (left) versus CHEMBL1997924 (right)
 
 
-化合物CHEMBL1997924与化合物31的3D相似性打分值如表2所示， tanimoto_shape = 0.794 足以具有肉眼可见的形状相似性， tanimoto_combo_legacy = 1.43 与 RefTverskyCombo = 1.873 从经验上讲也足够高。根据RefTverskyCombo排序，化合物排名13（并列），按索引排序56。总的来说，根据打分值我们可以很容易关注到CHEMBL1997924，而其对ROS1的IC50 = 1 nM。
-
+Table 2 shows the 3D similarity score values between compound CHEMBL1997924 and compound 31. The tanimoto_shape score of 0.794 indicates visually apparent shape similarity, while tanimoto_combo_legacy = 1.43 and RefTverskyCombo = 1.873 are empirically considered sufficiently high. Ranked by RefTverskyCombo, the compound is tied at 13th position, and ranks 56th by index. Overall, CHEMBL1997924 is readily noticeable based on its score values, particularly given its ROS1 IC50 = 1 nM.
 
 ### Table 2. Eight main score values of CHEMBL1997924
 
