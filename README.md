@@ -40,7 +40,7 @@ In this virtual screening, ROSHAMBO2 retained a total of 10,000 results with the
 
 | Items | tanimoto_combo_legacy | tanimoto_combination | RefTverskyCombo | FitTverskyCombo |
 | :---- | --------------------: | -------------------: | --------------: | --------------: |
-| count | 10000.000000 | 10000.000000 | 10000.000000 | 10000.000000 |
+| count | 10000 | 10000 | 10000 | 10000 |
 | mean | 1.206140 | 0.603070 | 1.492139 | 1.522523 |
 | std | 0.050101 | 0.025050 | 0.113713 | 0.125077 |
 | min | 1.154999 | 0.577500 | 1.183000 | 1.218000 |
