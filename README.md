@@ -92,9 +92,9 @@ The computational efficiency achieved within 12 minutes further supports ROSHAMB
 
 ## Conclusion
 
-This study demonstrates the efficacy of **ROSHAMBO2** in identifying potent and structurally similar inhibitors from a vast chemical database using 3D molecular similarity. The discovery of **CHEMBL1997924**, a high-affinity ROS1 inhibitor with strong shape congruence to Compound 31, highlights the advantage of leveraging conformational space representation in virtual screening.
+This study highlights ROSHAMBO2’s ability to discover **potent, structurally distinct inhibitors** of ROS1 that exhibit high 3D shape and pharmacophoric congruence with Compound 31, yet possess no significant 2D structural analogs in CHEMBL35—underscoring the value of conformational similarity screening in uncovering novel chemical matter. The discovery of **CHEMBL1997924**, a high-affinity ROS1 inhibitor with strong shape congruence to Compound 31, highlights the advantage of leveraging conformational space representation in virtual screening.
 
-Given its speed, scalability, and multi-descriptor scoring system, ROSHAMBO2 emerges as a valuable tool for modern drug discovery, particularly in targeting complex protein-ligand interactions that are poorly captured by conventional methods. Future work will focus on extending this pipeline to include binding pose prediction, ADMET filtering, and experimental validation of top-ranking candidates.
+Given its speed, scalability, and multi-descriptor scoring system, ROSHAMBO2 emerges as a valuable tool for modern drug discovery, particularly in targeting complex protein-ligand interactions that are poorly captured by conventional methods. 
 
 ---
 
