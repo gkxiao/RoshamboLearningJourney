@@ -6,6 +6,8 @@
 
 A primary reason for selecting compound 31 as the test case is that no similar compounds have been identified yet in CHEMBL35. CHEMBL35 molecules are characterized by Morgan fingerprints with a radius of 2 and 2048 bits in length. As of writing this post (2025-10-07), no compounds with Tanimoto similarity ≥ 0.4 (this is a widely accepted similarity threshold standard) could be found via [search](https://www.ebi.ac.uk/chembl/advanced_search/similarity/Cc1cc(Nc2nccs2)nc(N(C)Cc2ccc(C%23N)c(Cl)c2)n1/40).
 
+Compound 13 was discovered by Petrović, D. et al. from AstraZeneca (AZ) through searching AZ's internal database using FastROCS shape technology. FastROCS is the GPU version of ROCS, while the shape technology behind ROSHAMBO2 is an imitation of ROCS. We are unable to reproduce Petrović, D. et al.'s computational process using the same database, but we can conduct indirect verification through a reverse screening approach. Therefore, one objective of this paper is to examine whether ROSHAMBO2 can predict, based on Compound 13, its 3D structural similarity to known ROS1 inhibitors, and consequently predict that ROS1 is one of its targets.
+
 **chembl35_conf25_hits.sdf** is the top 10000 hits of screeninging against CHEMBL35 with ROSHAMBO2 using **31.sdf** as the query, with the following parameters:
 
 - `--color true`
