@@ -70,6 +70,8 @@ Table 2 shows the 3D similarity score values between compound CHEMBL1997924 and 
 | RefTverskyCombo | 1.873 |
 | FitTverskyCombo | 1.515 |
 
+Additionally, this computation utilized two RTX 4090 GPUs, collectively completing in 12 minutes. This equates to a processing speed of 19,305 conformations/second per GPU. While this speed is significantly lower than the 60,600 conformations/second (on-demand mode) reported in literature, the total runtime of 12 minutes remains acceptable.
+
 ## Reference
 1. Petrović, D. et al. (2022) “Virtual Screening in the Cloud Identifies Potent and Selective ROS1 Kinase Inhibitors,” Journal of Chemical Information and Modeling, 62(16), pp. 3832–3843. Available at: https://doi.org/10.1021/acs.jcim.2c00644.
 
