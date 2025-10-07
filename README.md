@@ -76,6 +76,15 @@ Table 2 shows the 3D similarity score values between compound CHEMBL1997924 and 
 
 Additionally, this computation utilized two RTX 4090 GPUs, collectively completing in 12 minutes. This equates to a processing speed of 19,305 conformations/second per GPU. While this speed is significantly lower than the 60,600 conformations/second (on-demand mode) reported in literature, the total runtime of 12 minutes remains acceptable.
 
+## Conclusion
+This study successfully demonstrated the utility of ROSHAMBO2 as a virtual screening tool for identifying structurally similar compounds to known ROS1 inhibitors. Using Compound 31 as a query molecule—a ROS1 inhibitor with no structural analogs (Tanimoto similarity ≥ 0.4) in CHEMBL35—we conducted a comprehensive 3D similarity screening against the CHEMBL35 database.
+
+The screening results revealed CHEMBL1997924 as a top-ranking hit with significant 3D similarity to Compound 31, evidenced by high similarity scores including tanimoto_shape (0.794), tanimoto_combo_legacy (1.43), and RefTverskyCombo (1.873). The identification of CHEMBL1997924 is particularly meaningful given its known potent ROS1 inhibitory activity (IC50 = 1 nM), which validates ROSHAMBO2's capability to predict not only structural similarity but also potential target relevance.
+
+The computational efficiency of the screening process, completing in just 12 minutes using two RTX 4090 GPUs, demonstrates the practical utility of ROSHAMBO2 for drug discovery applications. Despite processing at a lower rate (19,305 conformations/second per GPU) than previously reported benchmarks, the total runtime remains acceptable for rapid virtual screening campaigns.
+
+These findings confirm that ROSHAMBO2 can effectively identify compounds with 3D structural similarity to known bioactive molecules, even when traditional 2D fingerprint methods fail to detect similarities. This case study illustrates the value of shape-based screening approaches in fragment-based drug discovery and target prediction, particularly for identifying novel chemical matter with potential therapeutic activity against specific targets like ROS1.
+
 ## Reference
 1. Petrović, D. et al. (2022) “Virtual Screening in the Cloud Identifies Potent and Selective ROS1 Kinase Inhibitors,” Journal of Chemical Information and Modeling, 62(16), pp. 3832–3843. Available at: https://doi.org/10.1021/acs.jcim.2c00644.
 
