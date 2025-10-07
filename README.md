@@ -60,8 +60,8 @@ Among these results, I am interested in the virtual screening hit compound CHEMB
 
 | Metric | Value |
 |-----------------------|-----------|
-| tanimoto_combo_legacy | 1.430203 |
-| tanimoto_combination | 0.715101 |
+| tanimoto_combo_legacy | 1.430 |
+| tanimoto_combination | 0.715 |
 | FitTversky_volume | 0.864 |
 | FitTversky_color | 0.651 |
 | RefTverskyCombo | 1.873 |
