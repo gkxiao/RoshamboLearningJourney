@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import pandas as pd
 
 # Read the scoring results into a DataFrame
