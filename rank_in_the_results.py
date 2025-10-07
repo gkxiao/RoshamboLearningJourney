@@ -1,6 +1,7 @@
 import pandas as pd
 
-# 假设 df 是你的 DataFrame
+# 将打分结果读入 df
+df = pd.read_csv('chembl35_conf25_hits_score.csv')
 # 首先按 'RefTverskyCombo' 列从高到低排序
 df_sorted = df.sort_values(by='RefTverskyCombo', ascending=False)
 
