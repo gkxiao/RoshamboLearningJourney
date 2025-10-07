@@ -72,7 +72,7 @@ The data in Table 2 indicate a strong structural correspondence between Compound
 | FitTverskyCombo | 1.515 |
 
 
-Notably, CHEMBL1997924 exhibits a documented **ROS1 IC₅₀ value of 1 nM**, indicating potent inhibition. This pharmacological validation provides strong evidence that the high 3D-similarity scores identified by ROSHAMBO2 correlate not only with structural resemblance but also with biologically relevant activity.
+Notably, CHEMBL1997924 exhibits a documented **ROS1 IC₅₀ value of 1 nM**, indicating potent inhibition. This pharmacological validation provides strong evidence that the high 3D-similarity scores identified by ROSHAMBO2 correlate not only with 3D-similarity but also with biologically relevant activity.
 
 ---
 
