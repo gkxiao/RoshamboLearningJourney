@@ -77,3 +77,6 @@ Additionally, this computation utilized two RTX 4090 GPUs, collectively completi
 ## Reference
 1. Petrović, D. et al. (2022) “Virtual Screening in the Cloud Identifies Potent and Selective ROS1 Kinase Inhibitors,” Journal of Chemical Information and Modeling, 62(16), pp. 3832–3843. Available at: https://doi.org/10.1021/acs.jcim.2c00644.
 
+2. ROSHAMBO2. https://github.com/molecularinformatics/roshambo2
+
+3. Atwi, R. et al. (2025) “ROSHAMBO2: Accelerating Molecular Alignment for Large Chemical Libraries with GPU Optimization and Algorithmic Advances,” Journal of Chemical Information and Modeling [Preprint]. Available at: https://doi.org/10.1021/acs.jcim.5c01322.
