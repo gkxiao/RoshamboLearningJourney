@@ -53,6 +53,8 @@ Among the top hits, **CHEMBL1997924** was selected for detailed analysis due to 
 
 ![Figure 2: 3D Structural Comparison of Compound 31 (Left) and CHEMBL1997924 (Right)](https://github.com/gkxiao/RoshamboLearningJourney/blob/main/data/compound-31-and-CHEMBL1997924.png)
 
+Figure 2. 3D Structures of Compound 31 (left) and CHEMBL1997924 (right)
+
 ### Table 2. 3D Similarity Scores for CHEMBL1997924 Relative to Compound 31
 
 | Metric | Value |
