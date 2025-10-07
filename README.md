@@ -100,9 +100,9 @@ Given its speed, scalability, and multi-descriptor scoring system, ROSHAMBO2 eme
 
 ## References
 
+- Petrović, D. et al. (2022) “Virtual Screening in the Cloud Identifies Potent and Selective ROS1 Kinase Inhibitors,” Journal of Chemical Information and Modeling, 62(16), pp. 3832–3843. Available at: https://doi.org/10.1021/acs.jcim.2c00644.
 - Atwi, A., et al. (2025). *ROSHAMBO2: GPU-Accelerated 3D Molecular Similarity for High-Throughput Screening*. Journal of Chemical Information and Modeling, 65(2), 578–591.
-- Gaulton, A., et al. (2012). ChEMBL: towards direct drug discovery. *Nucleic Acids Research*, 40(D1), D1184–D1192.
-- Muegge, I., & Wang, Q. (2017). Molecular similarity in drug design. In *Drug Discovery Today* (Vol. 22, pp. 2035–2044).
+
 
 ---
 
