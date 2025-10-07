@@ -109,6 +109,7 @@ Given its speed, scalability, and multi-descriptor scoring system, ROSHAMBO2 eme
 
 - Petrović, D. et al. (2022) “Virtual Screening in the Cloud Identifies Potent and Selective ROS1 Kinase Inhibitors,” Journal of Chemical Information and Modeling, 62(16), pp. 3832–3843. Available at: https://doi.org/10.1021/acs.jcim.2c00644.
 - Atwi, R. et al. (2025) “ROSHAMBO2: Accelerating Molecular Alignment for Large Chemical Libraries with GPU Optimization and Algorithmic Advances,” Journal of Chemical Information and Modeling [Preprint]. Available at: https://doi.org/10.1021/acs.jcim.5c01322.
+- Seidel, T. et al. (2023) “High-Quality Conformer Generation with CONFORGE: Algorithm and Performance Assessment,” Journal of Chemical Information and Modeling, 63(17), pp. 5549–5570. Available at: https://doi.org/10.1021/acs.jcim.3c00563.
 
 ---
 
