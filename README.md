@@ -86,7 +86,8 @@ While this rate is lower than the benchmark value of **60,600 conformations/seco
 
 ## Discussion
 
-This study demonstrates ROSHAMBO2’s power in identifying novel **3D shape-matched inhibitors** of ROS1 kinase that closely resemble Compound 31 in molecular shape and spatial features—despite lacking significant 2D structural resemblance ([Tanimoto similarity ≥ 0.4 in CHEMBL35](https://www.ebi.ac.uk/chembl/advanced_search/similarity/Cc1cc(Nc2nccs2)nc(N(C)Cc2ccc(C%23N)c(Cl)c2)n1/40)). Traditional fingerprint-based methods often fail to detect such relationships due to their reliance on atom connectivity and pharmacophoric patterns, whereas shape- and color-based approaches like ROSHAMBO2 are better suited for capturing subtle conformational and spatial relationships.
+This study demonstrates ROSHAMBO2’s power in identifying novel **3D 3D shape-matched inhibitors** of ROS1 kinase that exhibit **high molecular shape similarity and pharmacophoric alignment with Compound 31**, despite lacking significant 2D structural resemblance ([Tanimoto similarity ≥ 0.4 in CHEMBL35](https://www.ebi.ac.uk/chembl/advanced_search/similarity/Cc1cc(Nc2nccs2)nc(N(C)Cc2ccc(C%23N)c(Cl)c2)n1/40)). Traditional fingerprint-based methods often fail to detect such analogs due to their reliance on atom connectivity and discrete pharmacophoric motifs, whereas **shape- and color-based approaches like ROSHAMBO2 are uniquely equipped to capture subtle conformational and spatial relationships**.
+
 
 The identification of **CHEMBL1997924** as a top hit underscores the power of 3D conformational analysis in uncovering functionally relevant chemical matter that may be missed by 2D similarity screening. Its high *tanimoto_shape* score (0.794) and exceptional RefTverskyCombo value (1.873), coupled with its potent biological activity, validate ROSHAMBO2’s ability to prioritize candidates with both structural plausibility and target relevance.
 
