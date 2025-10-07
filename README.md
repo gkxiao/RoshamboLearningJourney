@@ -4,6 +4,12 @@
 
 **chembl35_conf25_hits.sdf.gz** is the top 10000 hits of screeninging against CHEMBL35 with ROSHAMBO2 using **31.sdf** as the query, with the following parameters:
 
+- `--color true`
+- `--start_mode 1`
+- `--optim_mode combination`
+- `--max_results 10000`
+- `--n_gpus 2`
+
 ## Reference
 1. Petrović, D. et al. (2022) “Virtual Screening in the Cloud Identifies Potent and Selective ROS1 Kinase Inhibitors,” Journal of Chemical Information and Modeling, 62(16), pp. 3832–3843. Available at: https://doi.org/10.1021/acs.jcim.2c00644.
 
