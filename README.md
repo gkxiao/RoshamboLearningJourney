@@ -22,7 +22,7 @@ Specifically, the dataset includes six Tversky similarity scores:
 - FitTversky_color
 - FitTverskyCombo
 
-Furthermore, the molecular database employed in this study, **`CHEMBL35_conf25.h5`**, is a ROSHAMBO2-compatible 3D conformational library derived from drug-like compounds in CHEMBL V35. Conformations were generated using CDPKit’s conformational generator (confgen), with a maximum of 25 distinct conformers per molecule. The database properties are summarized as follows:
+Furthermore, the molecular database employed in this study, **`CHEMBL35_conf25.h5`**, is a ROSHAMBO2-compatible 3D conformational library derived from drug-like compounds in CHEMBL V35. Conformations were generated using [CDPKit](https://github.com/molinfo-vienna/CDPKit)’s conformational generator (confgen), with a maximum of 25 distinct conformers per molecule. The database properties are summarized as follows:
 
 - **Molecule count (pre-preparation)**: 910,625
 - **Expanded molecule count (post-preparation)**: 1,352,233 *(accounting for protonation states, tautomers, and stereoisomers)*
