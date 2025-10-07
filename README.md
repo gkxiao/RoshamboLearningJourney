@@ -25,7 +25,7 @@
 
 - **mol count**: 910625
 - **expanded mol count**: 1352233
-- **conf count**: 315791892
+- **conf count**: 27798929
 
 Where:
 - **mol count** refers to the number of compounds obtained from CHEMBL35 before ligand preparation;
@@ -35,6 +35,17 @@ Where:
 ## Result
 ![Compound 31 and CHEMBL1997924](https://github.com/gkxiao/RoshamboLearningJourney/blob/main/data/compound-31-and-CHEMBL1997924.png)
 **Figure 2.** 3D structures of Compound 31 (left) versus CHEMBL1997924 (right)
+
+| Items | tanimoto_combo_legacy | tanimoto_combination | RefTverskyCombo | FitTverskyCombo |
+| :---- | --------------------: | -------------------: | --------------: | --------------: |
+| count | 10000.000000 | 10000.000000 | 10000.000000 | 10000.000000 |
+| mean | 1.206140 | 0.603070 | 1.492139 | 1.522523 |
+| std | 0.050101 | 0.025050 | 0.113713 | 0.125077 |
+| min | 1.154999 | 0.577500 | 1.183000 | 1.218000 |
+| 25% | 1.170987 | 0.585493 | 1.413000 | 1.434000 |
+| 50% | 1.191708 | 0.595854 | 1.483000 | 1.513000 |
+| 75% | 1.225248 | 0.612624 | 1.565000 | 1.599000 |
+| max | 1.567736 | 0.783868 | 1.978000 | 2.106000 |
 
 ### 1. score
 | Metric | Value |
