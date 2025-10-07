@@ -19,6 +19,18 @@
 - FitTversky_color
 - FitTverskyCombo
 
+**CHEMBL35_conf25.h5** is a ROSHAMBO2 H5 format 3D conformational database prepared from CHEMBL V35 drug-like compounds. Conformations were generated using CDPKit's confgen, with up to 25 conformers per molecule. The results are summarized as follows:
+
+- **mol count**: 910625
+- **expanded mol count**: 1352233
+- **conf count**: 315791892
+
+Where:
+- **mol count** refers to the number of compounds obtained from CHEMBL35 before structure preparation;
+- **expanded mol count** refers to the number of molecules after structure preparation, including expansion due to protonation states, tautomers, and stereoisomers;
+- **conf count** refers to the total number of conformations.
+
+
 ## Reference
 1. Petrović, D. et al. (2022) “Virtual Screening in the Cloud Identifies Potent and Selective ROS1 Kinase Inhibitors,” Journal of Chemical Information and Modeling, 62(16), pp. 3832–3843. Available at: https://doi.org/10.1021/acs.jcim.2c00644.
 
