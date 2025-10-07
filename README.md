@@ -30,6 +30,9 @@ Where:
 - **expanded mol count** refers to the number of molecules after ligand preparation, including expansion due to protonation states, tautomers, and stereoisomers;
 - **conf count** refers to the total number of conformations.
 
+## Result
+![Compound 31 and CHEMBL1997924](https://github.com/gkxiao/RoshamboLearningJourney/blob/main/data/compound-31-and-CHEMBL1997924.png)
+
 ## Reference
 1. Petrović, D. et al. (2022) “Virtual Screening in the Cloud Identifies Potent and Selective ROS1 Kinase Inhibitors,” Journal of Chemical Information and Modeling, 62(16), pp. 3832–3843. Available at: https://doi.org/10.1021/acs.jcim.2c00644.
 
