@@ -33,8 +33,10 @@ Where:
 - **conf count** refers to the total number of conformations.
 
 ## Result
-![Compound 31 and CHEMBL1997924](https://github.com/gkxiao/RoshamboLearningJourney/blob/main/data/compound-31-and-CHEMBL1997924.png)
-**Figure 2.** 3D structures of Compound 31 (left) versus CHEMBL1997924 (right)
+
+In this virtual screening, ROSHAMBO2 retained a total of 10,000 results with the highest Tanimoto_combination scores. The statistics for the four main combination scores are presented in Table 1.
+
+### Table 1. The statistics for the four main combination scores
 
 | Items | tanimoto_combo_legacy | tanimoto_combination | RefTverskyCombo | FitTverskyCombo |
 | :---- | --------------------: | -------------------: | --------------: | --------------: |
@@ -46,6 +48,9 @@ Where:
 | 50% | 1.191708 | 0.595854 | 1.483000 | 1.513000 |
 | 75% | 1.225248 | 0.612624 | 1.565000 | 1.599000 |
 | max | 1.567736 | 0.783868 | 1.978000 | 2.106000 |
+
+![Compound 31 and CHEMBL1997924](https://github.com/gkxiao/RoshamboLearningJourney/blob/main/data/compound-31-and-CHEMBL1997924.png)
+**Figure 2.** 3D structures of Compound 31 (left) versus CHEMBL1997924 (right)
 
 ### 1. score
 | Metric | Value |
