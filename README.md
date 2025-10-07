@@ -10,7 +10,7 @@
 - `--max_results 10000`
 - `--n_gpus 2`
 
-**chembl35_conf25_hits.score.csv** contains the virtual screening scoring results. In addition to ROSHAMBO2 scores, Tversky similarity scores have been included, comprising a total of 6 columns:
+**chembl35_conf25_hits_score.csv** contains the virtual screening scoring results. In addition to ROSHAMBO2 scores, Tversky similarity scores have been included, comprising a total of 6 columns:
 
 - RefTversky_volume
 - RefTversky_color
