@@ -56,11 +56,13 @@ Among these results, I am interested in the virtual screening hit compound CHEMB
 
 
 
-### Table 2. Six main score values of CHEMBL1997924
+### Table 2. Eight main score values of CHEMBL1997924
 
 | Metric | Value |
 |-----------------------|-----------|
 | tanimoto_combo_legacy | 1.430 |
+| tanimoto_shape | 0.794 |
+| tanimoto_color | 0.636 |
 | tanimoto_combination | 0.715 |
 | FitTversky_volume | 0.864 |
 | FitTversky_color | 0.651 |
