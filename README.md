@@ -4,7 +4,7 @@
 
 **Compound 31** is a ROS1 inhibitor hit ( compound 13 ) discovered by Petrović, D. et al. (2022) through Fragment-Based Drug Discovery (FBDD). In this exercise, it serves as the **query** for ROSHAMBO2. Compound 13 underwent structure preparation using Flare, followed by conformational searching and alignment via the "Conf Hunt & Align" module. This process generated the bioactive conformation by aligning the compound to the ligands in three ROS1 co-crystal structures (PDB: 3ZBF, 4UXL, 7Z5X).
 
-A primary reason for selecting compound 31 as the test case is that no similar compounds have been identified yet in CHEMBL35. CHEMBL35 molecules are characterized by Morgan fingerprints with a radius of 2 and 2048 bits in length. As of writing this post (2025-10-07), no compounds with Tanimoto similarity ≥ 0.4 could be found via [search] (https://www.ebi.ac.uk/chembl/advanced_search/similarity/Cc1cc(Nc2nccs2)nc(N(C)Cc2ccc(C%23N)c(Cl)c2)n1/40).
+A primary reason for selecting compound 31 as the test case is that no similar compounds have been identified yet in CHEMBL35. CHEMBL35 molecules are characterized by Morgan fingerprints with a radius of 2 and 2048 bits in length. As of writing this post (2025-10-07), no compounds with Tanimoto similarity ≥ 0.4 could be found via [search](https://www.ebi.ac.uk/chembl/advanced_search/similarity/Cc1cc(Nc2nccs2)nc(N(C)Cc2ccc(C%23N)c(Cl)c2)n1/40).
 
 **chembl35_conf25_hits.sdf** is the top 10000 hits of screeninging against CHEMBL35 with ROSHAMBO2 using **31.sdf** as the query, with the following parameters:
 
