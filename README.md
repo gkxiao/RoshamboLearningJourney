@@ -14,7 +14,7 @@ shape-based virtual screening; query conformation; ROS1 kinase inhibitor; bioact
 
 Petrović et al. from AstraZeneca<sup>1</sup> reported a large-scale virtual screening campaign leveraging OpenEye FastROCS<sup>2</sup>, deployed across hundreds of GPUs in the cloud, to interrogate a 10<sup>10</sup>-member subset of AstraZeneca’s virtual compound library. The authors subsequently enumerated structural analogs around identified hit scaffolds, exploring a virtual chemical space encompassing ∼10<sup>15</sup> molecules. Hit compounds from FastROCS screening were subjected to molecular docking, leading to the synthesis and biological evaluation of two series as inhibitors of ROS1 and TrkA kinases. This work demonstrated the feasibility and practical utility of shape-based similarity methods<sup>3</sup> in discovering novel, potent, and selective kinase inhibitors from ultra-large chemical spaces.
 
-![ROS1 inhibitor compound 31](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/AZ-ROS1-inhibitor-31.png){width=198 height=183 .aligncenter}
+![ROS1 inhibitor compound 31](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/AZ-ROS1-inhibitor-31.png)
 
 **Figure 1.** Chemical structure of compound 31.
 
@@ -30,7 +30,7 @@ We selected the co-crystallized ligands from four ROS1 structures (PDB IDs: 3ZBF
 
 To ensure conformational energetics were physically reasonable, all generated conformers underwent quantum mechanical (QM) refinement. Geometry optimization was first performed at the GFN2-xTB level, followed by single-point energy calculations at the R2SCAN-3c//def2-mTZVPP level. Conformers were clustered using an RMSD threshold of 0.125 Å, yielding a representative subset of 133 low-energy conformations (see Supporting Information: `31_CONFS_QM.sdf`).
 
-![Overlay of compound 31 with ROS1 co-crystal ligands](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/bioactive-conformer-CONF_34.png){width=1065 height=687 .aligncenter}
+![Overlay of compound 31 with ROS1 co-crystal ligands](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/bioactive-conformer-CONF_34.png)
 
 **Figure 2.** Three-dimensional overlay of compound 31 (yellow) with ligands from four ROS1 co-crystal structures (PDB: 3ZBF, 4UXL, 7Z5X, 7Z5W). Smi denotes the Flare XED field similarity score.
 
@@ -38,13 +38,13 @@ Given the shared hinge-binding motif between compound 31 and the ligand in PDB 7
 
 Further overlays with ligands from PDB 3ZBF, 4UXL, and 7Z5X confirmed that CONF_34/41 also achieve favorable alignment with these co-crystal structures (Figure 2).
 
-![Binding mode comparison in the hinge region](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/Compound-31-CONF_41-binding-mode-hinge-interaction-rev1.png){width=1155 height=602 .aligncenter}
+![Binding mode comparison in the hinge region](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/Compound-31-CONF_41-binding-mode-hinge-interaction-rev1.png)
 
 **Figure 3.** Comparison of binding modes in the ROS1 hinge region (PDB 7Z5W). The protein backbone is shown as a ribbon; the hinge region is colored red, and the DFG motif is colored cyan. Compound 31 is depicted in yellow; the co-crystal ligand is in purple.
 
 Analysis of the binding pose of compound 31 within the ROS1 pocket (based on PDB 7Z5W) reveals that it recapitulates the key interactions of the co-crystal ligand in the hinge region (Figure 3). The thiazole, pyrimidine, and intervening NH group adopt a near-coplanar arrangement, stabilized by an S···N hyperconjugative effect. Specifically, the thiazole nitrogen acts as a hydrogen bond acceptor with the backbone NH of Met2029, while the bridging NH serves as a donor to the carbonyl oxygen of the same residue. Additionally, C–H groups on both aromatic rings engage in weak C–H···O=C interactions with the carbonyl oxygens of Glu2027 and Glu2030.
 
-![Binding mode comparison in the DFG region](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/Compound-31-CONF_41-binding-mode-in-DFG-motif.png){width=1161 height=621 .aligncenter}
+![Binding mode comparison in the DFG region](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/Compound-31-CONF_41-binding-mode-in-DFG-motif.png)
 
 **Figure 4.** Comparison of binding modes in the DFG region (PDB 7Z5W). Coloring scheme as in Figure 3.
 
@@ -58,7 +58,7 @@ Collectively, the identified conformation of compound 31 exhibits hallmark featu
 
 To evaluate the impact of non-bioactive conformations, we selected CONF_17—a high-energy conformation excluded during bioactive conformation identification—as a representative non-bioactive state. CONF_17 exhibits two key characteristics: (1) energetic inaccessibility, with a conformational strain energy of 8.5 kcal/mol (computed at B3LYP-D3BJ/6-31+G(d)//GFN2-xTB); and (2) significant structural deviation from the putative bioactive conformation CONF_34, as illustrated in Figure 5. Specifically, the thiazole ring undergoes a flip, the 3-chloro-4-cyanophenyl group rotates about its aryl–aryl bond, and the N,N-dimethyl linker adopts a non-planar conformation.
 
-![Comparison of bioactive (CONF_34) and non-bioactive (CONF_17) conformations](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/active-CONF_34_and_inactive-CONF_17_of-compound-31.png){width=1016 height=452 .aligncenter}
+![Comparison of bioactive (CONF_34) and non-bioactive (CONF_17) conformations](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/active-CONF_34_and_inactive-CONF_17_of-compound-31.png)
 
 **Figure 5.** Structural comparison between the putative bioactive conformation (CONF_34) and non-bioactive conformation (CONF_17) of compound 31.
 
@@ -146,7 +146,7 @@ Similarly, when using Tc as the scoring metric, CONF_34 ranked the hit at positi
 
 To understand why CONF_17 still retrieved CHEMBL1997924 despite its non-bioactive nature, we performed a conformational overlay (Figure 6). The alignment reveals substantial spatial overlap: (1) the thiazole–NH–pyrimidine plane of compound 31 aligns well with the pyrazole–NH–thienopyrimidine core of CHEMBL1997924; (2) the aryl rings adopt similar orientations; and (3) the C–N–C linker conformations are compatible. From a purely shape- and pharmacophore-based perspective, this match appears valid.
 
-![Overlay of CONF_17 and CHEMBL1997924](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/CHEMBL1997924-align-to-CONF_17.png){width=958 height=228 .aligncenter}
+![Overlay of CONF_17 and CHEMBL1997924](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/CHEMBL1997924-align-to-CONF_17.png)
 
 **Figure 6.** Conformational overlay between the non-bioactive conformation of compound 31 (CONF_17, yellow) and hit compound CHEMBL1997924 (green).
 
