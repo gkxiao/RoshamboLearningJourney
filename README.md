@@ -191,12 +191,12 @@ This command implicitly uses the following defaults:
 ### 3.3 ROSHAMBO2 Virtual Screening
 Key ROSHAMBO2 parameters:
 
-backend: cuda
-color: true
-start_mode: 1
-optim_mode: combination
-max_results: 10000
-n_gpus: 2
+- backend: cuda
+- color: true
+- start_mode: 1
+- optim_mode: combination
+- max_results: 10000
+- n_gpus: 2
 Computations were performed on a workstation equipped with two NVIDIA RTX 4090 GPUs.
 
 ### 3.4 Statistical Analysis and Ranking
