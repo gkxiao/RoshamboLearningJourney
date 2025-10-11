@@ -56,7 +56,7 @@ Collectively, the identified conformation of compound 31 exhibits hallmark featu
 
 ### 2.2 Design of a Non-Bioactive Conformation
 
-To evaluate the impact of non-bioactive conformations, we selected CONF_17—a high-energy conformation excluded during bioactive conformation identification—as a representative non-bioactive state. CONF_17 exhibits two key characteristics: (1) energetic inaccessibility, with a conformational strain energy of 8.5 kcal/mol (computed at B3LYP-D3BJ/6-31+G(d)//GFN2-xTB); and (2) significant structural deviation from the putative bioactive conformation CONF_34, as illustrated in Figure 5. Specifically, the thiazole ring undergoes a flip, the 3-chloro-4-cyanophenyl group rotates about its aryl–aryl bond, and the N,N-dimethyl linker adopts a non-planar conformation.
+To evaluate the impact of non-bioactive conformations, we selected CONF_17—a high-energy conformation excluded during bioactive conformation identification—as a representative non-bioactive state. CONF_17 exhibits two key characteristics: (1) energetic inaccessibility, with a conformational strain energy of 8.5 kcal/mol (computed at B3LYP-D3BJ/6-31+G(d)//GFN2-xTB); and (2) significant structural deviation from the putative bioactive conformation CONF_34, as illustrated in Figure 5. Specifically, the thiazole ring undergoes a flip, the 3-chloro-4-cyanophenyl group rotates about its aryl–aryl bond, and the N,N-dimethylamino linker undergoes a conformational flip. 
 
 ![Comparison of bioactive (CONF_34) and non-bioactive (CONF_17) conformations](http://blog.molcalx.com.cn/wp-content/uploads/2025/10/active-CONF_34_and_inactive-CONF_17_of-compound-31.png)
 
