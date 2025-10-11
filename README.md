@@ -197,6 +197,7 @@ Key ROSHAMBO2 parameters:
 - optim_mode: combination
 - max_results: 10000
 - n_gpus: 2
+
 Computations were performed on a workstation equipped with two NVIDIA RTX 4090 GPUs.
 
 ### 3.4 Statistical Analysis and Ranking
